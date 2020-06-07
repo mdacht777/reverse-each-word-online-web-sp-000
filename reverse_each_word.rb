@@ -1,10 +1,10 @@
 def reverse_each_word(str)
   arr=str.split(" ")
-  puts arr
-  sleep 5
   arr.collect do |i|
     "jones"
+    puts i
   end
+  sleep 5
   str=arr.join(" ")
   str
 end
